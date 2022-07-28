@@ -1,0 +1,90 @@
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+footer span {
+  padding-right: 20px;
+}
+footer a {
+  text-decoration: none;
+  transition: 1s all;
+  color: #ffffff;
+}
+.githab {
+  transition: 1s all;
+}
+footer a:hover,
+footer .githab:hover {
+  color: crimson;
+  transform: translateY(-5px);
+}
+
+footer svg {
+  width: 242px;
+  transition: 1s all;
+}
+footer svg:hover {
+  transform: translateY(-5px);
+}
+
+footer svg, .footer__rss {
+  height: 100%;
+}
+footer svg:hover path {
+  transition: 1s all;
+  color: crimson;
+  fill: crimson;
+}
+
+
+
+footer .copyright {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+footer .copyright a {
+  color: #444;
+}
+
+footer .copyright a:hover {
+  color: #555;
+}
+
+footer .copyright:before {
+  content: '©';
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    font-size: 25px;
+  }
+  .footer__rss {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 22px;
+  }
+  header h1 {
+    font-size: 33px;
+  }
+  svg {
+    width: 200px;
+  }
+}

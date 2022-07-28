@@ -1,0 +1,68 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  max-width: 360px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card__title {
+  font-size: 24px;
+}
+
+.card__description {
+  font-size: 20px;
+}
+
+.card__photo {
+  width: 100%;
+}
+
+.card__photo img {
+  max-width: 100%;
+}
+.card__footer {
+  padding: 10px;
+  text-align: left;
+}
+
+.card__footer svg {
+  width: 25px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.btn__footer {
+  width: 25px;
+  height: 25px;
+  background: transparent url("../../assets/icons/car.png") no-repeat center;
+  background-size: 25px 25px;
+  cursor: pointer;
+  transition: 1s all;
+  border-color: transparent;
+  outline: transparent;
+}
+.card__footer .btn__footer:hover {
+  transform: translateY(-2px);
+}
+
+.card__footer svg path {
+  color: #ffffff;
+  fill: #ffffff;
+  transition: 1s all;
+}
+
+.card__footer svg:hover path {
+  color: crimson;
+  fill: crimson;
+}
+
+.banner {
+  font-size: 24px;
+  margin: 15px 0 25px;
+  text-align: center;
+}

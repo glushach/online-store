@@ -1,0 +1,147 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  gap: 25px;
+}
+
+.filters-value,
+.filters-range,
+.filters-sort {
+  width: 500px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.maker__group,
+.color__group,
+.label-camera,
+.label-color,
+.wrapper__search,
+.wrapper__sort {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filters__wrapper,
+.wrapper__sort {
+  margin: 15px 0;
+}
+
+.filters__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.color__item,
+.maker__item,
+.camera__item {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.maker__group,
+.color__group,
+.camera,
+.search,
+.sort,
+.reset {
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.label__popular {
+  display: flex;
+  align-items: center;
+}
+
+.popular {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.reset {
+  height: 35px;
+  margin: 9px;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  transition: all 1s;
+}
+
+.reset:hover {
+  transform: scale(1.04);
+  color: crimson;
+}
+
+.amount__slider-block,
+.debut__slider-block {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.amount__inputs-block,
+.debuts__inputs-block {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.amount__title,
+.debut__title {
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+
+.amount__input,
+.debut__input {
+  width: 60px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  background: transparent;
+  color: #ffffff;
+}
+
+
+
+@media (max-width: 767px) {
+  .filters-value,
+  .filters-range,
+  filters-sort
+  .search,
+  .sort,
+  .reset {
+    font-size: 16px;
+  }
+}
+@media (max-width: 380px) {
+  .search,
+  .sort,
+  .reset {
+    font-size: 14px;
+  }
+
+  .filters-value,
+  .filters-range,
+  .filters-sort {
+    padding: 3px;
+  }
+
+  .amount__input,
+  .debut__input {
+    font-size: 16px;
+  }
+}

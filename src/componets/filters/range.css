@@ -1,0 +1,24 @@
+.noUi-target {
+  border: none;
+  border-radius: 100px;
+  box-shadow: none;
+  height: 5px;
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+  display: none;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  border-radius: 100px;
+  background-color: #728e72;
+  border: 5px solid #3FB8AF;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 25px;
+  height: 25px;
+  top: -9px;
+}
